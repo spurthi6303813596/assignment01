@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HoemPage</title>
+</head>
+<body bgcolor="aqua">
+<form action="./insert/" method="post">
+    {% csrf_token %}
+    Enter first number:<input type="text" name="t1"> <br>
+    Enter second number:<input type="text" name="t2"><br>
+    <input type="submit" value="Insert">
+</form>
+</body>
+</html>
